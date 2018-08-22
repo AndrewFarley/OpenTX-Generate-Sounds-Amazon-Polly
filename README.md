@@ -8,13 +8,6 @@
 1. To generate much nicer sounding audio feedback files for OpenTX transmitters.
 1. To allow users to customize the sounds easily on their handset
 
-## How does it do this?
-1. This uses a Python script that shouldn't require any additional installation or configuration to run on supported operating systems (OS-X only currently).  This script operates in two modes...
-    1. Single-use mode, generating a single mp3/wav file.  Good for making custom sounds.
-    2. CSV-parsing mode, parsing the OpenTX language .csv file and generating files with the contents and folder structure defined therein
-1. The Python script leverages [Amazon Polly](https://aws.amazon.com/polly/), an amazing text-to-speech engine from Amazon with an API.
-1. Finally, we leverage a tool on supported operating systems to convert to a WAV file of the specific format that OpenTX expects (16-bit 32000hz WAV).
-
 ## Prerequisites
 
 - Python 2.x (already on nearly every OS-X/Linux machine ever)
@@ -118,6 +111,14 @@ Options:
 
 ### That's IT!
 Enjoy your customized OpenTX handset, add a custom startup sound (hello.wav), add custom button/toggle sounds to let you know what's going on, amuse your friends, talk crap to your foes at the switch of a button.  Do your worst!  :P
+
+## How does this work?
+1. This uses a Python script that shouldn't require any additional installation or configuration to run on supported operating systems (OS-X only currently).  This script operates in two modes...
+    1. Single-use mode, generating a single mp3/wav file.  Good for making custom sounds.
+    2. CSV-parsing mode, parsing the OpenTX language .csv file and generating files with the contents and folder structure defined therein
+1. The Python script leverages [Amazon Polly](https://aws.amazon.com/polly/), an amazing text-to-speech engine from Amazon with an API.
+1. Finally, we leverage a tool on supported operating systems to convert to a WAV file of the specific format that OpenTX expects (16-bit 32000hz WAV).
+
 
 ## Changelog / Major Recent Features
 
