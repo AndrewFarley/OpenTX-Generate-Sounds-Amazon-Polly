@@ -8,12 +8,16 @@
 1. To generate much nicer sounding audio feedback files for OpenTX transmitters.
 1. To allow users to customize the sounds easily on their handset
 
+## TL;DR / ADHD / Non-Techies
+If you don't want any customization just way better sounding voices you don't need to read any further.  Just go download a pre-created OpenTX sound pack that this code generated in the [Releases Area](https://github.com/AndrewFarley/OpenTX-Generate-Sounds-Amazon-Polly/releases).
+
 ## Prerequisites
 
 - Python 2.x (already on nearly every OS-X/Linux machine ever)
 - [Create a free AWS account (not sponsored or anything)](https://aws.amazon.com/free/)
 - [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 - [Setup your AWS CLI credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) (aka, `aws configure`)
+- Ability to use the Terminal/Console
 
 ## Usage
 
