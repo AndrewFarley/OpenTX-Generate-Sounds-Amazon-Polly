@@ -73,6 +73,9 @@ Now, if you don't like the voice, choose one of the Voice IDs above, and run it 
 ./generate_sounds.py -v Nicole -o Nicole --csv ./en-US-taranis.csv
 ./generate_sounds.py -v Geraint -o Geraint --csv ./en-US-taranis.csv
 ./generate_sounds.py -v Emma -o Emma --csv ./en-US-taranis.csv
+# If you want to hear the sounds as they are created (WARNING: this will take a lot longer to run)
+./generate_sounds.py -v Brian -o Brian --csv ./en-US-taranis.csv --autoplay
+
 ```
 Each of these will make a folder with the Voice's name which will contain the proper folder structure (folder name SOUNDS therein) to copy onto your OpenTX transmitter.
 
